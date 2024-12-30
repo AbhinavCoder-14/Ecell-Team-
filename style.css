@@ -199,6 +199,10 @@ nav {
 
 }
 
+.br{
+    border-radius: 15px;
+}
+
 .member-photo{
     position: relative; /* Position the top image */
 
