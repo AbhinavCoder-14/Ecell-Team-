@@ -137,7 +137,15 @@ nav {
     color:rgb(11, 11, 113);
 }
 
+.r1{
+    transform: rotate(-3deg);
+}
 
+.shift{
+    position: relative;
+    left:40px;
+    border-radius: 5px;
+}
 
 .s1{
     position: relative;
@@ -162,7 +170,7 @@ nav {
 
 .main-cart{
     display: flex;
-        /* margin: auto; */
+        margin: auto;
         justify-content: center;
         flex-direction: column;
         align-items: center;
@@ -190,7 +198,7 @@ nav {
 }
 
 .member-photo{
-    position: absolute; /* Position the top image */
+    position: relative; /* Position the top image */
 
  /* Ensure it matches the container size */
     z-index: 2; /* Higher z-index ensures this image is on top */
