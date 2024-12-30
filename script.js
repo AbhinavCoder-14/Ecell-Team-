@@ -125,7 +125,6 @@ gsap.from(".trigger-4",{
         end: "40% 40%",
         scrub: 2,
         once: true
-         
     }
 
 
@@ -137,6 +136,39 @@ gsap.from(".trigger-5",{
     opacity:0,
     scrollTrigger:{
         trigger: ".desgin",
+        start: "30% 80%",
+        end: "40% 40%",
+        scrub: 2,
+        once: true
+         
+    }
+
+
+
+})
+
+gsap.from(".trigger-11",{
+    y: -100,
+    duration: .1,
+    opacity:0,
+    scrollTrigger:{
+        trigger: ".adviser",
+        start: "30% 80%",
+        end: "40% 40%",
+        scrub: 2,
+        once: true
+         
+    }
+
+
+
+})
+gsap.from(".trigger-12",{
+    y: -100,
+    duration: .1,
+    opacity:0,
+    scrollTrigger:{
+        trigger: ".content",
         start: "30% 80%",
         end: "40% 40%",
         scrub: 2,
