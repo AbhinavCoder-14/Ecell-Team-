@@ -161,10 +161,11 @@ nav {
 .x1{
     /* border: 2px solid red; */
     display: flex;
-    width: 80%;
+    width: 900px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 
