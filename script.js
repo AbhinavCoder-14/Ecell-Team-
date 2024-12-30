@@ -38,7 +38,7 @@ gsap.from("nav", {
 
 gsap.to(".bg-team",{
     duration:1.5, // Duration of the scale animation
-    scale: 1.1, // Slightly scale up
+    scale: 1.2, // Slightly scale up
     ease: "power2.out", // Smooth easing
     filter:"brightness(0.6)"
 })
@@ -271,11 +271,12 @@ function section4head(text) {
 
 
 var herotl = gsap.timeline()
-navtl.from(".heroOverlay", {
-    opacity: 0,
-    delay: 1.7,
-    duration: .1
-})
+
+// navtl.from(".heroOverlay", {
+//     opacity: 0,
+//     delay: 1.7,
+//     duration: .1
+// })
 
 
 
@@ -287,3 +288,17 @@ herotl.from(".gsap", {
     duration: 0.1,
     stagger: 0.2,
 })
+
+
+// var herotl = gsap.timeline()
+// herotl.from(".heroOverlay", {
+//     opacity: 0,
+//     delay: 2.7,
+
+//     duration: 2
+// })
+// herotl.from(".gsap", {
+//     y: 200,
+//     duration: 0.5,
+//     stagger: 0.2,
+// })
