@@ -252,6 +252,16 @@ nav {
     height: 107vh;
 }
 
+.cross{
+    filter: invert(1);
+}
+
+
+.ham{
+    filter: invert(1);
+}
+
+
 
 
 

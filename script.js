@@ -334,3 +334,35 @@ herotl.from(".gsap", {
 //     duration: 0.5,
 //     stagger: 0.2,
 // })
+
+
+
+
+// <-----------HamMenu--------------->
+let ham = document.querySelector('.ham');
+var htl = gsap.timeline()
+htl.to(".hmenu", {
+    left: 0,
+    duration: 0.1,
+})
+htl.from(".head .hlogo", {
+    y: 100,
+    duration: 0.2,
+    delay: 0.2,
+    opacity: 0,
+})
+htl.from(".hbody ul li", {
+    y: 80,
+    stagger: 0.1,
+    opacity: 0,
+})
+htl.pause()
+ham.addEventListener('click', function () {
+    htl.timeScale(1)
+    htl.play()
+});
+let sham = document.querySelector(".cross");
+sham.addEventListener('click', function () {
+    htl.timeScale(3)
+    htl.reverse()
+});
