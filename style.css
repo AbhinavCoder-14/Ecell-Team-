@@ -248,8 +248,50 @@ nav {
 }
 
 
+.front-page{
+    height: 107vh;
+}
 
 
 
 
 
+
+
+@media (min-width: 1800px) {
+    .member-info{
+        margin: 8vw 0px 1vw 0px;
+        position: relative;
+        z-index: 100;
+    }
+
+    .cart {
+        margin: 40px 0px 9px 0px;
+        /* border: 2px solid rgb(0, 0, 0); */
+        width: 19vw;
+        height: 316px;
+    }
+
+
+    .x1 {
+        /* border: 2px solid red; */
+        display: flex
+    ;
+        width: 1590px;
+        gap: 105px;
+    }
+    
+    
+    .main-cart {
+        display: flex
+    ;
+        margin: auto;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 5vw;
+    }    
+
+
+
+  }
