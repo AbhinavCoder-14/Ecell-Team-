@@ -294,4 +294,30 @@ nav {
 
 
 
+    .heading-title {
+
+        font-size: 6rem; 
+    }
+    
+      .meetOurTeam {
+        font-size: 5.5rem;
+    }
+    
+    
+      .position {
+        font-size: 4.4rem; 
+    
+    }
+    
+        .member-info h1 {
+        font-size: 4.1rem; 
+    }
+    .member-info span p {
+        font-size: 2rem;
+        margin-top: 0px;
+    }
+    
+
+
+
   }
