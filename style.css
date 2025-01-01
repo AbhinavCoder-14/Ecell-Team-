@@ -25,7 +25,7 @@ body {
 body {
     position: relative;
     background-color: white;
-    overflow-x: hidden;
+    /* overflow: hidden; */
 }
 
 .hmenu {
@@ -255,6 +255,7 @@ nav {
 
 .front-page{
     height: 107vh;
+    overflow: hidden;
 }
 
 .cross{
