@@ -179,12 +179,15 @@ nav {
     }
 
 
-.cart{
-    margin: 40px 0px 9px 0px;
-    /* border: 2px solid rgb(0, 0, 0); */
-    width: 310px;
-    height: 316px;
-
+    .cart {
+        margin: 51px 0px 9px 0px;
+        /* border: 2px solid rgb(0, 0, 0); */
+        /* width: 110px; */
+        /* height: 50vw; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
 }
 
@@ -225,6 +228,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    z-index: 100;
 }
 
 
@@ -262,15 +267,71 @@ nav {
 }
 
 
+.width-problem{
+    width: 17vw;
+}
 
+
+.cart {
+    padding: 0px 1vw;
+    border: 2px solid red;
+}
+
+
+
+@media (max-width:1040px) {
+
+
+
+    .bg-img {
+        width: 30vh;
+    }
+
+        
+    .member-photo {
+
+        width: 28vh;
+    }
+
+
+    .cart {
+        padding: 0px 10vh;
+    }
+
+
+    .member-info h1 {
+        font-size: 2.4rem;
+    }
+
+    .member-info span p {
+        font-size: 1.2rem;
+    }
+
+    .heading-title{
+        font-size: 3rem;
+    }
+
+    /* . width-problem{
+        width: 22vh;
+    } */
+        
+
+
+
+}
+
+
+
+    
 
 
 
 
 
 @media (min-width: 1800px) {
-    .member-info{
-        margin: 8vw 0px 1vw 0px;
+
+    .member-info {
+        margin: 1vw 0px 1vw 0px;
         position: relative;
         z-index: 100;
     }
@@ -279,22 +340,19 @@ nav {
         margin: 40px 0px 9px 0px;
         /* border: 2px solid rgb(0, 0, 0); */
         width: 19vw;
-        height: 316px;
     }
 
 
     .x1 {
         /* border: 2px solid red; */
-        display: flex
-    ;
-        width: 1590px;
+        display: flex;
+        width: 70%;
         gap: 105px;
-    }
+    } 
     
     
     .main-cart {
-        display: flex
-    ;
+        display: flex;
         margin: auto;
         justify-content: center;
         flex-direction: column;
@@ -309,12 +367,12 @@ nav {
         font-size: 6rem; 
     }
     
-      .meetOurTeam {
+    .meetOurTeam {
         font-size: 5.5rem;
     }
     
     
-      .position {
+    .position {
         font-size: 4.4rem; 
     
     }
@@ -326,8 +384,7 @@ nav {
         font-size: 2rem;
         margin-top: 0px;
     }
-    
 
 
 
-  }
+}
