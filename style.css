@@ -353,6 +353,12 @@ nav {
     .member-info span p {
         font-size: 1.1rem;
     }
+
+    .shift{
+        position: relative;
+        left:20px;
+        border-radius: 5px;
+    }
 }
 
 
