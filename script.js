@@ -27,6 +27,7 @@ gsap.from("nav", {
         end: "90% 40%",
         scrub: 2,
         // once: true
+        
          
     }
 });
@@ -249,10 +250,11 @@ gsap.from(".trigger-10",{
     opacity:0,
     scrollTrigger:{
         trigger: ".incubation",
-        start: "30% 80%",
-        end: "40% 40%",
+        start: "10% 70%",
+        end: "9% 40%",
         scrub: 2,
-        once: true
+        once: true,
+
          
     }
 
