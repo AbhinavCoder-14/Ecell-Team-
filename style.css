@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Prompt", sans-serif;
+    overflow-x: hidden;
 
 
     & a {
@@ -93,7 +94,7 @@ nav {
     background-blend-mode: darken;
     transform: scale(1);
     /* opacity: .5; */
-    height: 101vh;
+    height: 100vh;
     /* width: 100vw; */
     margin: -30px 0px 0px 0px;
     /* position: absolute; */
@@ -221,6 +222,7 @@ nav {
     text-underline-offset: 5px;        /* Add space between the text and underline */
     text-decoration-thickness: 4px;    /* Optional: Control the thickness of the underline */
     text-decoration-color: #000000;
+    text-align: center;
 }
 
 .member-info{
@@ -275,7 +277,7 @@ nav {
 
 .cart {
     padding: 0px 1vw;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 
@@ -316,6 +318,11 @@ nav {
         width: 22vh;
     } */
         
+
+    .x1 {
+        /* border: 2px solid red; */
+        display: flex;
+        width: 900px;
 
 
 

@@ -69,7 +69,7 @@
     }
 
     nav {
-        position: fixed;
+        /* position: fixed; */
         justify-content: space-between;
         height: 70px;
         padding: 0 40px;
@@ -102,8 +102,8 @@
     }
 
     nav {
-        padding: 0 10px;
-        width: 101vw;
+        padding: 0 10vh;
+        /* width: 10vw; */
     }
 }
 
