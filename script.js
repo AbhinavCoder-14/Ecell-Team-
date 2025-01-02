@@ -33,7 +33,7 @@ gsap.from("nav", {
 
 
 
-
+// animation for front bg-team image 
 
 
 gsap.to(".bg-team",{
@@ -61,7 +61,7 @@ gsap.to(".bg-team",{
 
 
 
-
+// for team animation
 var member_cart = gsap.timeline()
 
 gsap.from(".trigger-1",{
@@ -261,31 +261,6 @@ gsap.from(".trigger-10",{
 })
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 let head = document.querySelector(".heading-title")
 let text = "GET IN TOUCH WITH US"
 let text2 = text.split("")
@@ -304,36 +279,16 @@ function section4head(text) {
 
 var herotl = gsap.timeline()
 
-// navtl.from(".heroOverlay", {
-//     opacity: 0,
-//     delay: 1.7,
-//     duration: .1
-// })
-
 
 
 
 herotl.from(".gsap", {
-    delay:1,
+    delay:.7,
     opacity:0,
-    y:0,
-    duration: 0.1,
-    stagger: 0.2,
+    y:100,
+    stagger: 0.1,
+    duration: .1,
 })
-
-
-// var herotl = gsap.timeline()
-// herotl.from(".heroOverlay", {
-//     opacity: 0,
-//     delay: 2.7,
-
-//     duration: 2
-// })
-// herotl.from(".gsap", {
-//     y: 200,
-//     duration: 0.5,
-//     stagger: 0.2,
-// })
 
 
 
