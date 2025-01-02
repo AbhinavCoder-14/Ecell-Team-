@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Prompt", sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 
 
     & a {
@@ -100,6 +100,8 @@ nav {
     /* position: absolute; */
     /* top: 10px; */
 
+    /* border: 2px solid black; */
+
 
     
 }
@@ -125,6 +127,8 @@ nav {
 
 
 .team-section{
+    /* border: 2px solid rgb(49, 21, 21); */
+
 
     height: 100vh;
 
@@ -151,7 +155,7 @@ nav {
 .s1{
     position: relative;
     /* height: 50vh; */
-    /* border: 2px solid red; */
+    /* border: 2px solid rgb(71, 255, 15); */
     margin: 37px 0px;
     display: flex;
     flex-direction: column;
@@ -160,9 +164,9 @@ nav {
 }
 
 .x1{
-    /* border: 2px solid red; */
+    /* border: 8px solid rgb(255, 251, 0); */
     display: flex;
-    width: 900px;
+    /* width: 900px; */
     gap: 30px;
     flex-direction: row;
     justify-content: space-between;
@@ -173,22 +177,23 @@ nav {
 
 .main-cart{
     display: flex;
-        margin: auto;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
+
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
 
-    .cart {
-        margin: 51px 0px 9px 0px;
-        /* border: 2px solid rgb(0, 0, 0); */
-        /* width: 110px; */
-        /* height: 50vw; */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+.cart {
+    margin: 51px 0px 9px 0px;
+    /* border: 2px solid rgb(0, 0, 0); */
+     /* width: 110px; */
+    /* height: 50vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -244,7 +249,7 @@ nav {
 }
 
 .member-info button{
-    border: 0px solid black;
+    /* border: 0px solid black; */
     background-color: rgb(255, 255, 255);
 }
 
@@ -274,10 +279,9 @@ nav {
     width: 17vw;
 }
 
-
 .cart {
-    padding: 0px 1vw;
-    /* border: 2px solid red; */
+    padding: 0px 6vw;
+
 }
 
 
@@ -322,10 +326,18 @@ nav {
     .x1 {
         /* border: 2px solid red; */
         display: flex;
-        width: 900px;
+        /* width: 900px; */
 
 
 
+}
+
+
+
+@media (max-width:500px) {
+    .cart {
+        padding: 0px 6vh;
+    }
 }
 
 
