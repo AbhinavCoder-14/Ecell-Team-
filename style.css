@@ -42,7 +42,8 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(11, 11, 113);
+  /* background-color: #00000000; */
+  /* background: linear-gradient(90deg, rgb(30, 30, 47), rgb(43, 58, 103)) rgb(11, 11, 113); */
 
   height: 56px;
   width: 100%;

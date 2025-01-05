@@ -16,9 +16,9 @@ navtl.from(".navlinks ul li", {
     stagger: 0.2,
 })
 
-gsap.from("nav", {
-    backgroundColor: "rgb(11, 11, 113,0)",
-    // opacity:0,
+gsap.to("nav", {
+    background: "linear-gradient(90deg, rgb(30, 30, 47), rgb(43, 58, 103)) rgb(11, 11, 113)",
+    // opacity:1,
     duration: 0.5,
     ease: "power2.out",
     scrollTrigger: {
